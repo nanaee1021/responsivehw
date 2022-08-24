@@ -44,10 +44,8 @@ ul{
 }
 
 h2{
-    margin-left: 20px;
     font-size: 35px;
     border-bottom: double 6px orange;
-    margin-right: 700px;
     margin-left: auto;
 
 
@@ -94,5 +92,71 @@ footer span{
     width: 90px;
     padding: 5px;
     margin-left: 900px;
+    
+}
+@media screen and (max-width: 767px) {
+    
+    
+    h1{
+        text-align: center;
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .header-left{
+        width: 100%;
+        height: 30px;
+        font-size: 15px;
+        max-width: 767px;
+
+    }
+    .p1{
+        font-size: 15px;
+
+    }
+
+    .header{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+    .header img{
+        width: 90%;
+        max-width: 767px;
+        margin-top: 5%;
+
+    }
+
+    h2{
+        font-size: 15px;
+        margin-right: auto;
+
+    }
+
+    .containar{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+
+
+    }
+    p{
+        font-size: 15px;
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
     
 }
